@@ -1,4 +1,4 @@
-# Tutorial: Working and debugging PHP in Docker
+# Tutorial: Working with and debugging PHP in Docker
 The `docker-compose.yml` consists of two services: Webserver (Ubuntu 16.04, Apache2, PHP7) and Database (MySQL).
 By mounting `app` into the Webserver container, you can easily work on the file(s) and see the effects by opening
 [your browser](http://localhost).
@@ -19,7 +19,7 @@ for MacOS. Just enter your local IP in `<your_local_ip>` and start your containe
 
 ### Path mappings
 You mounted your local project into the container. We now want to make PhpStorm aware what paths your code has been mounted to.
-With that mapping in place, PhpStorm is able guide you through your code when debugging.
+With that mapping in place, PhpStorm is able to guide you through your code when debugging.
 `app` -> `/var/www/html`
 ![Path mappings](images/path_mappings.png "Path mappings in PhpStorm")
 
