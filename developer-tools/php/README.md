@@ -24,7 +24,7 @@ With that mapping in place, PhpStorm is able guide you through your code when de
 ![Path mappings](images/path_mappings.png "Path mappings in PhpStorm")
 
 ### PHP debug settings
-![PHP debug settings](images/php_debug_settings "Debug settings in your PhpStorm")
+![PHP debug settings](images/php_debug_settings.png "Debug settings in your PhpStorm")
 We need to set PhpStorm to listen to Port 9000 on your local machine.
 The remote part (the container) will try to connect back to your local machine on this port
 
