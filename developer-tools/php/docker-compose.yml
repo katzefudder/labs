@@ -1,0 +1,22 @@
+version: "2"
+
+services:
+    webserver:
+        build: .
+        links:
+          - "database:database"
+        volumes:
+          - ./app:/var/www/html
+          # mount xdebug.ini for your convenience
+          - ./config/xdebug.ini:/etc/php/7.0/cli/conf.d/xdebug.ini
+          - ./config/xdebug.ini:/etc/php/7.0/apache2/conf.d/xdebug.ini
+        ports:
+          - 80:80
+    database:
+        image: mysql/mysql-server
+        environment:
+          - MYSQL_ROOT_PASSWORD=
+          - MYSQL_DATABASE=
+          - MYSQL_USER=
+          - MYSQL_PASSWORD=
+          - MYSQL_ALLOW_EMPTY_PASSWORD=yes
