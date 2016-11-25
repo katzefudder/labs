@@ -36,6 +36,8 @@ so that PhpStorm recognizes this call.
 
 ### Debugging
 Set a breakpoint in your code, then open [your browser](http://localhost).
+
 ![Breakpoint in your code](images/breakpoint.png "Set a breakpoint in your code where you want PhpStorm to break")
+
 Focus should change to PhpStorm and show something similar to the screen shot beneath.
 ![Screenshot from debugging your app](images/debug_your_app.png "Screenshot from PhpStorm")
