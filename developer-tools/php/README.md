@@ -29,10 +29,10 @@ We need to set PhpStorm to listen to Port 9000 on your local machine.
 The remote part (the container) will try to connect back to your local machine on this port
 
 ### XDebug Helper Plugin for Chrome
-![Set PhpStorm](images/xdebug_helper_settings.png "Setting PhpStorm for Xdebug helper Plugin")
 Choose PhpStorm in the plugin's options. This sets a cookie with the according IDE key.
 With this cookie in place, Xdebug on your remote machine will include this key in it's responses to your local host
 so that PhpStorm recognizes this call.
+![Set PhpStorm](images/xdebug_helper_settings.png "Setting PhpStorm for Xdebug helper Plugin")
 
 ### Debugging
 Set a breakpoint in your code, then open [your browser](http://localhost).
