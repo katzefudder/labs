@@ -36,6 +36,7 @@ so that PhpStorm recognizes this call.
 
 ### Debugging
 Set a breakpoint in your code, then open [your browser](http://localhost).
+ 
 
 ![Breakpoint in your code](images/breakpoint.png "Set a breakpoint in your code where you want PhpStorm to break")
 
